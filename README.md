@@ -1,0 +1,1 @@
+project template with react / shadcn-ui and tailwind for assessment
