@@ -14,7 +14,7 @@ const Index = () => {
         <Navbar />
 
         <div className="max-w-screen-xl mx-auto px-4 py-8 sm:px-6 lg:px-8 ">
-          <div className="flex justify-center w-full gap-8  ">
+          <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-center w-full gap-8  ">
             {/* Left column: Campaign details */}
             <div className="space-y-4 w-full max-w-md">
               <p className="text-sm ml-1 text-gray-500">Brand Name</p>
@@ -51,7 +51,7 @@ const Index = () => {
             </div>
 
             {/* Right column: Gym banner */}
-            <div className="flex justify-center basis-8/12">
+            <div className="flex justify-center lg:basis-8/12">
               <GymBanner />
             </div>
           </div>
@@ -84,7 +84,7 @@ const Index = () => {
           {/* Additional Information */}
           <div className="mb-16">
             <h2 className="text-3xl font-semibold mb-8">Additional Information</h2>
-            <p className="text-gray-700">
+            <p className="text-gray-700 text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In the
               pursuit of excellence, individuals often find themselves driven by
               a desire to push boundaries, unlocking new potential within

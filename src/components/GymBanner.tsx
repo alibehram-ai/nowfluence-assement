@@ -3,21 +3,21 @@ import React from "react";
 
 const GymBanner = () => {
   return (
-    <div className="relative w-full max-w-2xl overflow-hidden rounded-lg">
+    <div className="relative w-full min-w-[400px] lg:max-w-2xl lg:min-h-[500px] overflow-hidden rounded-lg shadow-lg">
       <div className="bg-teal-300 h-full p-8 relative">
         {/* Wavy lines */}
-        <div className="absolute left-0 top-1/3 w-full">
+        <div className="absolute left-0 top-1/3 w-full max-w-40">
           <div className="flex flex-col space-y-2">
-            <div className="h-2 bg-black w-32 rounded-full"></div>
-            <div className="h-2 bg-black w-40 rounded-full"></div>
-            <div className="h-2 bg-black w-36 rounded-full"></div>
+            <div className="h-2 bg-black w-24 lg:w-32 rounded-full"></div>
+            <div className="h-2 bg-black w-28 lg:w-40 rounded-full"></div>
+            <div className="h-2 bg-black  w-24 lg:w-36 rounded-full"></div>
           </div>
         </div>
         <div className="absolute right-0 top-2/3 w-full">
           <div className="flex flex-col items-end space-y-2">
-            <div className="h-2 bg-black w-32 rounded-full"></div>
-            <div className="h-2 bg-black w-40 rounded-full"></div>
-            <div className="h-2 bg-black w-36 rounded-full"></div>
+          <div className="h-2 bg-black w-24 lg:w-32 rounded-full"></div>
+            <div className="h-2 bg-black w-28 lg:w-40 rounded-full"></div>
+            <div className="h-2 bg-black  w-24 lg:w-36 rounded-full"></div>
           </div>
         </div>
         
